@@ -1,0 +1,164 @@
+*{ 
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+} 
+body{ 
+	min-height: 100vh;
+} 
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	padding: 0px 7%; /*top and buttom, left and right*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*z-index: 1000;*/
+	box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+header .navbar ul{
+	list-style: none;
+}
+header .navbar ul li{
+	position: relative;
+	float: left;
+} 
+header .navbar ul li a{ 
+	font-size: 20px;
+	padding: 20px;
+	color: #333;
+	display: block;
+}
+
+header .navbar ul li a:hover{
+	background: #333;
+	color: #fff;
+}
+header .navbar ul li ul{
+	position: absolute;
+	left: 0;
+	width: 200px;
+	background: #fff;
+	display: none;
+}
+header .navbar ul li ul li{
+	width: 100%;
+	border-top: 1px solid rgb(0,0,0,0.1);
+}
+header .navbar ul li:hover>ul{
+	display: initial;
+}
+header .navbar ul li ul li ul{
+	left: 200px;
+	top: 0;
+}
+/* navbar section */
+
+.form-section{
+	display: flex; 
+	height: 5%;
+	margin-left: 5%;
+	margin-right: 12%;
+	background-color: #070F20;
+	/* margin-height: 3%; */
+	margin-top: 4%;
+	/* padding: 10px; */
+	border: 2px;
+	border-color: aliceblue;
+	
+}
+#form-section-one{
+	padding: 20px;
+	width: 50%;
+}
+#form-section-one #form-image{
+	background-image: url("./image33.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.form-section-two{
+	background-color: #070F20;
+    padding-left: 2%;
+    padding: 20px;
+    height: 400px;
+}
+.form-top1{
+	background-color: aliceblue;
+}
+.form-top2{
+	color: orangered;
+}
+.text{
+	color: orangered;
+}
+.form-top3{
+	color: white;
+	display: block;
+}
+.form-top3 .p{
+	margin-left: 25%;
+	height: 100px;
+}
+.form-top3 .u{
+	margin-left: 33%;
+}
+.form-top3 .vs{
+	margin-left: 16%;
+}
+.form-buttom .form-top3 .hs{
+	background-color: orangered;
+}
+.jb input{
+	height: 20px;
+	display: flex;
+}
+.jj{
+	display: flex;
+}
+.form-button{
+	color: aliceblue;
+}
+.checkbox{
+	display: block;
+
+}
+.check{
+	display: flex;
+}
+.accont{
+	display: flex;
+}
+.jd{
+	display: flex;
+	/* font-size: 16px;
+	width: 100%;
+	height: 40px; */
+}
+.checkbox .UK{
+	margin-right: 10px;
+}
+.mail{
+	display: flex;
+}
+.nam{
+	display: flex;
+}
+.passw{
+	display: flex;
+}
+.text{
+	margin-right: 15px;
+}
+.email{
+	margin-right: 15px;
+}
+.password{
+	margin-right: 15px;
+}
+.handle{
+	margin-right: 15px;
+}
